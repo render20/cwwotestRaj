@@ -4,34 +4,34 @@ from os import getenv
 
 
 # ------------------------------------------------
-API_ID = int(os.environ.get("API_ID", "211966"))
+API_ID = int(os.environ.get("API_ID", ""))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH","d97919fb0abb2a25bbb37d57c")
+API_HASH = os.environ.get("API_HASH","")
 # ------------------------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7695160505:AAHq6aaYHdINj5-cK4tR7qv6A")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 # ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "@prowithehbot")
-BOT_TEXT = "𝐏𝐑𝐎 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐎𝐑 🫵"
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Ezhilextractor_robot")
+BOT_TEXT = "Pro Extractor"
 # ------------------------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", "716886"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8075836012"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-100253702"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003082043736"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-100255202")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1003025510345")) 
 # -----------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongod_url")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-100283702"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1003082043736"))
 # -----------------------------------------------
-join = '<a href="https://t.me/proex_ch">✳️ Bᴀᴄᴋᴜᴘ</a>'
+join = '<a href="https://t.me/SRC2026_1">✳️ Bᴀᴄᴋᴜᴘ</a>'
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "urban_rider2007" #without @
+ADMIN_BOT_USERNAME = "Ezhil" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "https://envs.sh/9HT.jpg")
 
